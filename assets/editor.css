@@ -1,0 +1,43 @@
+.components-color-picker__body {
+    padding: 16px 0;
+}
+
+.components-color-picker__inputs-fields .components-base-control__label{
+    max-width: unset;
+}
+
+.kungfu-slider .block-editor-inner-blocks,
+.kungfu-slider .block-editor-block-list__layout {
+    height: inherit;
+    width: 100%;
+}
+
+.kungfu-slider {
+    height: calc(100vh - 85px);
+}
+
+.kungfu-slide {
+    display: flex;
+    min-height: 100px;
+    background-color: white;
+    border: 1px dashed grey;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: inherit;
+}
+
+.wp-block[data-type="kungfu/slide"]{
+    max-width: 100%;
+    height: inherit;
+}
+
+.kungfu-overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}

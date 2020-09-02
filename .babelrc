@@ -2,7 +2,8 @@
 	"presets": ["@babel/preset-env", "@babel/preset-react"],
     "plugins": [
         [ "@babel/plugin-transform-react-jsx", {
-            "pragma": "wp.element.createElement"
+            "pragma": "wp.element.createElement",
+            "pragmaFrag": "React.Fragment"
         } ],
         [
 			"@babel/plugin-proposal-class-properties"

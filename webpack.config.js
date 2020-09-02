@@ -11,7 +11,7 @@ module.exports = {
     // output is where to write the built file
     output: {
         path: path.join( __dirname, 'dist'),
-        filename: 'animations.build.js',
+        filename: 'slider.build.js',
     },
     module: {
         // the list of rules used to process files
